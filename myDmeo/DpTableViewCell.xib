@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="13F1066" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="dpCellIndentifier" rowHeight="228" id="KGk-i7-Jjw" customClass="DpTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="386" height="228"/>
+            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tx" translatesAutoresizingMaskIntoConstraints="NO" id="cXx-Uo-QZD">
+                        <rect key="frame" x="8" y="8" width="50" height="50"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="13564879225" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6U8-FU-cz8">
+                        <rect key="frame" x="71" y="10" width="82" height="22"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.56862745100000001" green="0.56862745100000001" blue="0.56862745100000001" alpha="1" colorSpace="deviceRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2015-06-14" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5qc-Zz-EsH">
+                        <rect key="frame" x="245" y="7" width="119" height="22"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.56862745100000001" green="0.56862745100000001" blue="0.56862745100000001" alpha="1" colorSpace="deviceRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dj" translatesAutoresizingMaskIntoConstraints="NO" id="r2V-kc-LFo">
+                        <rect key="frame" x="156" y="8" width="24" height="20"/>
+                    </imageView>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="今儿天气好晴朗，心情愉快旅游去。今儿天气好晴朗，心情愉快旅游去。今儿天气好晴朗，心情愉快旅游去。" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3em-hb-Cfv">
+                        <rect key="frame" x="71" y="40" width="293" height="69"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <imageView userInteractionEnabled="NO" tag="20" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="IId-1B-Nle">
+                        <rect key="frame" x="71" y="122" width="70" height="70"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" tag="21" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="Wba-w7-oWE">
+                        <rect key="frame" x="144" y="122" width="70" height="70"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" tag="22" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="4" translatesAutoresizingMaskIntoConstraints="NO" id="4mE-gG-MIe">
+                        <rect key="frame" x="216" y="122" width="70" height="70"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lyq-5k-ycu">
+                        <rect key="frame" x="289" y="122" width="70" height="70"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <accessibility key="accessibilityConfiguration" label="">
+                            <bool key="isElement" value="NO"/>
+                        </accessibility>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="共10张" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ki0-IY-lqF">
+                        <rect key="frame" x="296" y="147" width="56" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.56862745100000001" green="0.56862745100000001" blue="0.56862745100000001" alpha="1" colorSpace="deviceRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" tag="110" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="zan" translatesAutoresizingMaskIntoConstraints="NO" id="P0e-7g-H04">
+                        <rect key="frame" x="308" y="200" width="26" height="25"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="20" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gtE-JS-dmq">
+                        <rect key="frame" x="336" y="202" width="23" height="22"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="dateLabel" destination="5qc-Zz-EsH" id="sHV-dq-zXI"/>
+                <outlet property="headImageView" destination="cXx-Uo-QZD" id="cI6-uK-M3P"/>
+                <outlet property="phoneNumberLabel" destination="6U8-FU-cz8" id="yQ5-GF-xaz"/>
+                <outlet property="praiseImageView" destination="P0e-7g-H04" id="Blp-Fe-SHu"/>
+                <outlet property="praiseLabel" destination="gtE-JS-dmq" id="NnP-RO-cRX"/>
+                <outlet property="ratingsImageView" destination="r2V-kc-LFo" id="cjM-QC-KAN"/>
+                <outlet property="textView" destination="3em-hb-Cfv" id="ww8-do-E1b"/>
+                <outletCollection property="shareImage" destination="IId-1B-Nle" id="8Oq-Cx-VOn"/>
+                <outletCollection property="shareImage" destination="Wba-w7-oWE" id="fqX-JG-NDd"/>
+                <outletCollection property="shareImage" destination="4mE-gG-MIe" id="SYs-gK-i8U"/>
+            </connections>
+            <point key="canvasLocation" x="173" y="229"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="2" width="480" height="300"/>
+        <image name="3" width="215" height="185"/>
+        <image name="4" width="480" height="300"/>
+        <image name="dj" width="37" height="28"/>
+        <image name="tx" width="77" height="77"/>
+        <image name="zan" width="36" height="36"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
